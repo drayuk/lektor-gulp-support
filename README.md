@@ -2,7 +2,7 @@
 
 Adds gulp support to lektor .
 
-This is a plugin is a port of lekto-webpack-support for Lektor that adds support
+This plugin is a port of lekto-webpack-support for Lektor that adds support
  for gulp to projects.  When enabled it can build a gulp project from the `gulp/` folder into the
 asset folder automatically when the server (or build task) is run with
 the `-f gulp` flag.

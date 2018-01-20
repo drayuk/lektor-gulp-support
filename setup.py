@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lektor-gulp-support',
-    version='0.1.1',
+    version='0.1.2',
     author=u'Drayuk',
     author_email='ekentiako@gmail.com',
     url='http://github.com/selgem/lektor-gulp-support',
