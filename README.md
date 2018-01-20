@@ -41,8 +41,8 @@ Now we can `npm install` (or `yarn add`) the rest:
 
 ```bash
 $ cd </path/to/your/lektor/project>/gulp
-$ npm install --save-dev 'gulpjs/gulp#4.0' gulp-load-plugins gulp-babel gulp-reporter gulp-concat gulp-uglify gulp-rename gulp-sass gulp-csscomb gulp-cssbeautify gulp-postcss gulp-sourcemaps gulp-cssimport gulp-cssnano gulp-cached gulp-imagemin
-$ npm install --save-dev postcss-import postcss-flexbugs-fixes postcss-reporter stylelint autoprefixer del run-sequence
+$ npm install --save-dev 'gulpjs/gulp#4.0' gulp-load-plugins gulp-babel gulp-reporter gulp-uglify gulp-rename gulp-sass gulp-csscomb gulp-postcss gulp-cssimport gulp-cssnano gulp-cached gulp-imagemin
+$ npm install --save-dev postcss-import postcss-flexbugs-fixes postcss-reporter postcss-merge-rules postcss-sorting css-mqpacker stylelint autoprefixer del
 ```
 
 This will install gulp4.0 itself together with babel, sass and postcss as well as
